@@ -1,4 +1,5 @@
 #+TITLE: Elegoo Neptune Profiles for PrusaSlicer
+[[file:Elegoo/NEPTUNE2_thumbnail.png]]
 
 This is a simple adaptation of the Creality Ender profiles for the Elegoo Neptune family (2/2S and 2D).
 
@@ -6,7 +7,7 @@ Copy to your machine, then they will be available in PrusaSlicer as presets with
 
 Credit to just_trey for the platform texture and for turning Elegoo's cad files into a nice stl.
 
-* Installation
+** Installation
 
 1. Close PrusaSlicer.
 2. Copy =Elegoo.ini=, =Elegoo.idx=, and the =Elegoo= directory to your PrusaSlicer vendor directory. On MacOS this will be in =~/Library/Application\ Support/PrusaSlicer/vendor=, on Windows this will be =C:\users\<username>\AppData\Roaming\PrusaSlicer\vendor=.
@@ -14,3 +15,13 @@ Credit to just_trey for the platform texture and for turning Elegoo's cad files 
 4. Rename stl to =neptune2_bed.stl= and svg to =neptune2.svg=.
 5. Copy stl and svg to the Elegoo vendor directory.
 6. Open PrusaSlicer and add printers (Gear icon -> Add/Remove Presets -> Other Vendors -> Check Elegoo -> Click Elegoo FFF -> Click checkbox -> Filaments -> Finish).
+
+** Modifications/Notes
+
+- Printable area is 225mm x 210mm. This is to avoid the binder clips that come stock. If you've fitted a magnetic sheet without binder clips, you can increase the configured area to 225mm x 225mm.
+- All filament temperatures and settings are the same as the Creality Ender 3.
+- Creality 2D (dual extruder) profile is untested (based on Creality CR-X profile). Let me know if it works!
+
+** Credits
+
+- Andrew Suzuki - @andrewsuzuki - [[https://andrewsuzuki.com][andrewsuzuki.com]]
