@@ -1,0 +1,16 @@
+#+TITLE: Elegoo Neptune Profiles for PrusaSlicer
+
+This is a simple adaptation of the Creality Ender profiles for the Elegoo Neptune family (2/2S and 2D).
+
+Copy to your machine, then they will be available in PrusaSlicer as presets with nice thumbnail images.
+
+Credit to just_trey for the platform texture and for turning Elegoo's cad files into a nice stl.
+
+* Installation
+
+1. Close PrusaSlicer.
+2. Copy =Elegoo.ini=, =Elegoo.idx=, and the =Elegoo= directory to your PrusaSlicer vendor directory. On MacOS this will be in =~/Library/Application\ Support/PrusaSlicer/vendor=, on Windows this will be =C:\users\<username>\AppData\Roaming\PrusaSlicer\vendor=.
+3. Download just_trey's neptune 2 print model and platform texture from [[https://www.prusaprinters.org/prints/91525-elegoo-neptune-2-print-model-and-platform-texture][here]].
+4. Rename stl to =neptune2_bed.stl= and svg to =neptune2.svg=.
+5. Copy stl and svg to the Elegoo vendor directory.
+6. Open PrusaSlicer and add printers (Gear icon -> Add/Remove Presets -> Other Vendors -> Check Elegoo -> Click Elegoo FFF -> Click checkbox -> Filaments -> Finish).
