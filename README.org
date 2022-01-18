@@ -1,4 +1,4 @@
-#+TITLE: Elegoo Neptune Profiles for PrusaSlicer
+#+TITLE: Elegoo Neptune Profiles for PrusaSlicer/slic3r/SuperSlicer
 [[file:Elegoo/NEPTUNE2_thumbnail.png]]
 
 This is a simple adaptation of the Creality Ender profiles for the Elegoo Neptune family (2/2S and 2D).
