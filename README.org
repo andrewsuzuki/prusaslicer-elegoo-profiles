@@ -5,7 +5,7 @@ This is a simple adaptation of the Creality Ender profiles for the Elegoo Neptun
 
 Copy to your machine, then they will be available in PrusaSlicer as presets with nice thumbnail images.
 
-Credit to just_trey for the platform texture and for turning Elegoo's cad files into a nice stl.
+Thanks to just_trey for the platform texture and for turning Elegoo's cad files into a nice stl.
 
 ** Installation
 
@@ -18,9 +18,9 @@ Credit to just_trey for the platform texture and for turning Elegoo's cad files 
 
 ** Modifications/Notes
 
-- Printable area is 225mm x 210mm. This is to avoid the binder clips that come stock. If you've fitted a magnetic sheet without binder clips, you can increase the configured area to 225mm x 225mm.
+- Configured printable area is 225mm x 210mm. This is to avoid the binder clips that come stock. If you've fitted a magnetic sheet without binder clips, you can increase the configured area to 225mm x 225mm.
 - All filament temperatures and settings are the same as the Creality Ender 3.
-- Creality 2D (dual extruder) profile is untested (based on Creality CR-X profile). Let me know if it works!
+- Neptune 2D (dual extruder) profile is untested (based on Creality CR-X profile). Let me know if it works!
 
 ** Credits
 
