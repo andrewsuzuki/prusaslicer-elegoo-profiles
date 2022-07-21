@@ -1,7 +1,7 @@
 #+TITLE: Elegoo Neptune Profiles for PrusaSlicer/slic3r/SuperSlicer
 [[file:Elegoo/NEPTUNE2_thumbnail.png]]
 
-This is a simple adaptation of the Creality Ender profiles for the Elegoo Neptune family (2/2S and 2D).
+This is a simple adaptation of the Creality Ender profiles for the Elegoo Neptune family (2/2S and 2D and also for the X and the 3).
 
 Copy to your machine, then they will be available in PrusaSlicer as presets with nice thumbnail images.
 
@@ -18,9 +18,9 @@ Thanks to just_trey for the platform texture and for turning Elegoo's cad files 
 
 ** Modifications/Notes
 
-- Configured printable area is 225mm x 210mm. This is to avoid the binder clips that come stock. If you've fitted a magnetic sheet without binder clips, you can increase the configured area to 225mm x 225mm.
+- Configured printable area is 225mm x 210mm. This is to avoid the binder clips that come stock. If you've fitted a magnetic sheet without binder clips, you can increase the configured area to 235mm x 235mm.
 - All filament temperatures and settings are the same as the Creality Ender 3.
-- Neptune 2D (dual extruder) profile is untested (based on Creality CR-X profile). Let me know if it works!
+- Neptune 2D (dual extruder) profile is based on Creality CR-X profile and modified by mlee12382.
 
 ** Credits
 
