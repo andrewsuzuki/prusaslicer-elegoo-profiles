@@ -5,7 +5,7 @@ This is a simple adaptation of the Creality Ender profiles for the Elegoo Neptun
 
 Copy to your machine, then they will be available in PrusaSlicer as presets with nice thumbnail images.
 
-Thanks to [[https://github.com/just_trey/][just_trey]] for the platform texture and for turning Elegoo's cad files into a nice stl.
+Thanks to [[https://github.com/just-trey/][just_trey]] for the platform texture and for turning Elegoo's cad files into a nice stl.
 
 ** Installation
 
