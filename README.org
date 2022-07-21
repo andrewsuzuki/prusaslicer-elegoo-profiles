@@ -1,26 +1,23 @@
 #+TITLE: Elegoo Neptune Profiles for PrusaSlicer/slic3r/SuperSlicer
 [[file:Elegoo/NEPTUNE2_thumbnail.png]]
 
-This is a simple adaptation of the Creality Ender profiles for the Elegoo Neptune family (2/2S and 2D).
+This is a simple adaptation of the Creality Ender profiles for the Elegoo Neptune family (2/2S and 2D and also for the X and the 3).
 
 Copy to your machine, then they will be available in PrusaSlicer as presets with nice thumbnail images.
 
-Thanks to just_trey for the platform texture and for turning Elegoo's cad files into a nice stl.
+Thanks to [[https://github.com/just-trey/][just_trey]] for the platform texture and for turning Elegoo's cad files into a nice stl.
 
 ** Installation
 
 1. Close PrusaSlicer.
-2. Copy =Elegoo.ini=, =Elegoo.idx=, and the =Elegoo= directory to your PrusaSlicer vendor directory. On MacOS this will be in =~/Library/Application\ Support/PrusaSlicer/vendor=, on Windows this will be =C:\users\<username>\AppData\Roaming\PrusaSlicer\vendor=.
-3. Download just_trey's neptune 2 print model and platform texture from [[https://www.prusaprinters.org/prints/91525-elegoo-neptune-2-print-model-and-platform-texture][here]].
-4. Rename stl to =neptune2_bed.stl= and svg to =neptune2.svg=.
-5. Copy stl and svg to the Elegoo vendor directory.
-6. Open PrusaSlicer and add printers (Gear icon -> Add/Remove Presets -> Other Vendors -> Check Elegoo -> Click Elegoo FFF -> Click checkbox -> Filaments -> Finish).
+2. Copy =Elegoo.ini=, =Elegoo.idx=, and the =Elegoo= directory to your PrusaSlicer vendor directory. On MacOS this will be in =~/Library/Application\ Support/PrusaSlicer/vendor=, on Windows this will be =C:\users\<username>\AppData\Roaming\PrusaSlicer\vendor=. AppData is a hidden folder.
+3. Open PrusaSlicer and add printers (Gear icon -> Add/Remove Presets -> Other Vendors -> Check Elegoo -> Click Elegoo FFF -> Click checkbox -> Filaments -> Finish).
 
 ** Modifications/Notes
 
-- Configured printable area is 225mm x 210mm. This is to avoid the binder clips that come stock. If you've fitted a magnetic sheet without binder clips, you can increase the configured area to 225mm x 225mm.
+- Configured printable area is 225mm x 210mm. This is to avoid the binder clips that come stock. If you've fitted a magnetic sheet without binder clips, you can increase the configured area to 235mm x 235mm.
 - All filament temperatures and settings are the same as the Creality Ender 3.
-- Neptune 2D (dual extruder) profile is untested (based on Creality CR-X profile). Let me know if it works!
+- Neptune 2D (dual extruder) profile is based on Creality CR-X profile and modified by [[https://github.com/mlee12382/][mlee12382]].
 
 ** Credits
 
