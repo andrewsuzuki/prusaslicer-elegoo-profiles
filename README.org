@@ -9,16 +9,20 @@ Thanks to [[https://github.com/just-trey/][just_trey]] for the platform texture 
 
 ** Installation
 
-1. Close PrusaSlicer.
-2. Copy =Elegoo.ini=, =Elegoo.idx=, and the =Elegoo= directory to your PrusaSlicer vendor directory. On MacOS this will be in =~/Library/Application\ Support/PrusaSlicer/vendor=, on Windows this will be =C:\users\<username>\AppData\Roaming\PrusaSlicer\vendor=. AppData is a hidden folder.
-3. Open PrusaSlicer and add printers (Gear icon -> Add/Remove Presets -> Other Vendors -> Check Elegoo -> Click Elegoo FFF -> Click checkbox -> Filaments -> Finish).
+1. Open PrusaSlicer/SuperSlicer/Slic3r if this is a new install in order to create the settings folder.
+2. Close the Configuration Wizard if it is open, open the Help menu and then select Show Configuration Folder. 
+3. Close PrusaSlicer/SuperSlicer/Slic3r.
+4. Copy =Elegoo.ini=, =Elegoo.idx=, and the =Elegoo= directory to your PrusaSlicer\SuperSlicer\Slic3r vendor directory. If for some reason using Show Configuration Folder didn't open it they are in the following location: on MacOS this will be in =~/Library/Application\ Support/<app name>/vendor/, on Windows this will be = C:\users\<username>\AppData\Roaming\<app name>\vendor\ where app name is PrusaSlicer/SuperSlicer/Slic3r.  AppData is a hidden folder.
+5. Open PrusaSlicer/SuperSlicer/Slic3r and add printers (Configuration Menu -> Configuration Wizard -> Select Elegoo or Elegoo FFF -> Click on the checkbox for the printer/s you want to add -> Select Filaments from the selections on the left and select any or all default profiles you want available -> Use the Next button at the bottom to go through and select any other options you may want enabled (Recommend Expert Mode for all settings options to be visible) -> Click Finish).
+6. If you are using Octoprint or some other Print Host, select Printer Settings and click on the Gear Icon near the top next to the drop down menu with your printer name to add a "Physical Printer" and enter your device details.
 
 ** Modifications/Notes
 
-- Configured printable area is 225mm x 210mm. This is to avoid the binder clips that come stock. If you've fitted a magnetic sheet without binder clips, you can increase the configured area to 235mm x 235mm.
+- Configured printable area for Neptune 2 / 2D is 225mm x 210mm. This is to avoid the binder clips that come stock. If you've fitted a magnetic sheet without binder clips, you can increase the configured area to 235mm x 235mm.
 - All filament temperatures and settings are the same as the Creality Ender 3.
 - Neptune 2D (dual extruder) profile is based on Creality CR-X profile and modified by [[https://github.com/mlee12382/][mlee12382]].
+- Neptune X, Neptune 3, and Neptune 1 profiles added by mlee12382.
 
 ** Credits
 
-- Andrew Suzuki - @andrewsuzuki - [[https://andrewsuzuki.com][andrewsuzuki.com]]
+- Base profiles created by Andrew Suzuki - @andrewsuzuki - [[https://andrewsuzuki.com][andrewsuzuki.com]]
