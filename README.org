@@ -7,6 +7,10 @@ Copy to your machine, then they will be available in PrusaSlicer as presets with
 
 Thanks to [[https://github.com/just-trey/][just_trey]] for the platform texture and for turning Elegoo's cad files into a nice stl.
 
+These will work with SuperSlicer if you save your own presets, there are a couple code changes that will give "errors" that are fixed by saving copies of the presets or you can get the "fixed" profiles [[https://github.com/mlee12382/slic3r-profiles][here.]]
+
+These will be added in the next releases of the programs automatically. 
+
 ** Installation
 
 1. Open PrusaSlicer/SuperSlicer/Slic3r if this is a new install in order to create the settings folder.
